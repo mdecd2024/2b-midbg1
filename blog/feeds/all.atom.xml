@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-02-18T11:00:00+08:00</updated><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-02-18T01:42:14+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T08:37:58+08:00</updated><entry><title>2024 協同產品設計實習第6週心得-41123204</title><link href="./2024-w6-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-28T00:00:00+08:00</published><updated>2024-04-11T08:37:58+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-28:./2024-w6-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第6週心得.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第6週心得.&lt;/p&gt;
+
+
+&lt;h1&gt;第六周心得&lt;/h1&gt;
+&lt;p&gt;將&lt;a href="[https://webthesis.biblio.polito.it/16429/1/tesi.pdf]"&gt;ODOO 參考資料&lt;/a&gt;中的第32到42翻譯完成，並使用LaTeX語法進行編輯，並學會了新的語法&lt;/p&gt;
+&lt;p&gt;\usepackage{makecell} %命令引入 makecell宏包&lt;/p&gt;
+&lt;p&gt;\makecell[居中情況]{第一行內容\第二行內容\...} %這個指令能夠在表格內容太長，需要換行時使用，居中情況可鍵入[l]向左靠齊[c]居中對齊[r]向右靠齊&lt;/p&gt;</content><category term="w6-41123204"></category><category term="網誌編寫-41123204"></category></entry><entry><title>2024 協同產品設計實習第5週心得-41123204</title><link href="./2024-w5-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-21T00:00:00+08:00</published><updated>2024-04-11T08:37:58+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-21:./2024-w5-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第5週心得.&lt;/p&gt;
+
+
+&lt;h1&gt;第五週心得&lt;/h1&gt;
+&lt;p&gt;學習LaTeX語法，在&lt;a href="https://www.overleaf.com/"&gt;overleaf&lt;/a&gt; 網站上進行編輯，以下為語法&lt;/p&gt;
+&lt;p&gt;\documentclass[12pt,a4paper]{report} %紙張設定&lt;/p&gt;
+&lt;p&gt;\usepackage{xeCJK}%中文字體模組&lt;/p&gt;
+&lt;p&gt;\setCJKmainfont{TW-Kai} %設定中文字體&lt;/p&gt;
+&lt;p&gt;\usepackage[top=3cm, bottom=2cm, left=3cm, right=3cm, a4paper]{geometry} %命令引入 geometry宏包，並通過選項設置了頁面的上、下、左、右邊距以及紙張大小。&lt;/p&gt;
+&lt;p&gt;\usepackage{graphicx} %命令引入 graphicx宏包&lt;/p&gt;
+&lt;p&gt;\usepackage{textcomp} %命令引入 textcomp宏包&lt;/p&gt;
+&lt;p&gt;\hoffset=-5mm %調整左右邊界&lt;/p&gt;
+&lt;p&gt;\voffset=-8mm %調整上下邊界&lt;/p&gt;
+&lt;p&gt;\usepackage{amsmath} %命令引入 amsmath宏包&lt;/p&gt;
+&lt;p&gt;\setlength{\parindent}{2em} %將段落的縮進設置為 2em&lt;/p&gt;
+&lt;p&gt;\newfontfamily\sectionef{Times New Roman} %設置字體&lt;/p&gt;
+&lt;p&gt;\begin{document} 
+\end{document} %LaTeX 文檔的開始與結束&lt;/p&gt;
+&lt;p&gt;\begin{centor} 
+文字
+\end{centor} %文字置中&lt;/p&gt;
+&lt;p&gt;\newpage %下一頁&lt;/p&gt;
+&lt;p&gt;\textbf{文字} %文字變粗&lt;/p&gt;
+&lt;p&gt;\includegraphics[width=1\textwidth,height=0.5\textwidth]{圖片檔} %上傳圖片且width可改變寬度height可改變高度&lt;/p&gt;</content><category term="w5-41123204"></category><category term="網誌編寫-41123204"></category></entry><entry><title>2024 協同產品設計實習1~4週心得-41123204</title><link href="./2024-w4-blog-tutorial-41123204.html" rel="alternate"></link><published>2024-03-14T00:00:00+08:00</published><updated>2024-04-11T08:37:58+08:00</updated><author><name>TING</name></author><id>tag:None,2024-03-14:./2024-w4-blog-tutorial-41123204.html</id><summary type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 協同產品設計實習課程第一~四週心得.&lt;/p&gt;
+
+
+&lt;h1&gt;第一週心得&lt;/h1&gt;
+&lt;p&gt;第一週我使用了 https://github.com/mdecycu/cmsimde_site 作為template建立自己的&lt;a href="https://github.com/warsplte/cd2024.git"&gt;倉儲&lt;/a&gt;並架設&lt;a href="https://warsplte.github.io/cd2024/"&gt;網頁&lt;/a&gt;
+我使用了兩種方式來建立網站&lt;/p&gt;
+&lt;h2&gt;Replit&lt;/h2&gt;
+&lt;p&gt;將github的倉儲匯入replit 
+在Shell分別輸入 
+chmod u+x init_replit&lt;/p&gt;
+&lt;p&gt;./init_replit&lt;/p&gt;
+&lt;p&gt;pip install flask flask_cors bs4 lxml pelican markdown gevent&lt;/p&gt;
+&lt;p&gt;接著按下RUN就可編輯個人網頁&lt;/p&gt;
+&lt;h2&gt;可攜&lt;/h2&gt;
+&lt;p&gt;下載可攜套件，建立putty
+開啟start_ipv4.bat 
+在cmd輸入
+cd tmp&lt;/p&gt;
+&lt;p&gt;git clone --recurse-submodules git.個人倉儲&lt;/p&gt;
+&lt;p&gt;後輸入
+cd cd2024&lt;/p&gt;
+&lt;p&gt;cms
+即可開啟個人動態網站進行編輯&lt;/p&gt;
+&lt;h1&gt;第二週心得&lt;/h1&gt;
+&lt;p&gt;第二周我們建立了分組網站&lt;/p&gt;
+&lt;h1&gt;第三週心得&lt;/h1&gt;
+&lt;p&gt;將組員加入子模組&lt;/p&gt;
+&lt;h1&gt;第四周心得&lt;/h1&gt;
+&lt;p&gt;建出網站日誌&lt;/p&gt;</content><category term="w1~4-41123204"></category><category term="網誌編寫-41123204"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-11T08:37:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 

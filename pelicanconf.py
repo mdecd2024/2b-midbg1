@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'team8'
+AUTHOR = 'team1'
 SITENAME = '網際內容管理系統'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
@@ -14,7 +14,7 @@ import os
 import shutil
 
 # Directories you want to include, 包含分組倉儲中的 markdown 與學員子模組對應目錄下的 markdown 等目錄中的 .md 網誌原始檔案
-input_directories = ['markdown', '41123204/markdown','41123216/markdown','41123217/markdown']
+input_directories = ['markdown','41123216/markdown']
 
 # Temporary directory to store combined Markdown files
 combined_directory = 'combined_markdown'

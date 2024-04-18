@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w2 41123211</title><link href="./" rel="alternate"></link><link href="./feeds/w2-41123211.atom.xml" rel="self"></link><id>./</id><updated>2024-04-18T07:10:55+08:00</updated><entry><title>20240229 41123211</title><link href="./2024-Spring-w2-blog-41123211.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-04-18T07:10:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-29:./2024-Spring-w2-blog-41123211.html</id><summary type="html">&lt;p&gt;本周建立團隊分組倉儲。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;本周建立團隊分組倉儲。&lt;/p&gt;
+
+
+&lt;h1&gt;建立分組倉儲&lt;/h1&gt;
+&lt;p&gt;本周以第一周之做法新增名為2b-midbg1之網站，但由於沒有權限，需設置ssh進行授權，並將 .git/config 中的協定改為ssh。&lt;/p&gt;
+&lt;p&gt;目前已設置完成，倉儲鏈結 : &lt;a href="https://github.com/mdecd2024/2b-midbg1"&gt;https://github.com/mdecd2024/2b-midbg1&lt;/a&gt;&lt;/p&gt;</content><category term="w2 41123211"></category><category term="網誌編寫 41123211"></category></entry></feed>

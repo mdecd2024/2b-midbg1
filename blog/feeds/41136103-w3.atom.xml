@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 41136103-w3</title><link href="./" rel="alternate"></link><link href="./feeds/41136103-w3.atom.xml" rel="self"></link><id>./</id><updated>2024-04-19T03:28:53+08:00</updated><entry><title>2024 Spring 課程 41136103</title><link href="./w3%2041136103.html" rel="alternate"></link><published>2024-03-07T15:00:00+08:00</published><updated>2024-04-19T03:28:53+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-07:./w3 41136103.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w3網誌&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w3網誌&lt;/p&gt;
+
+
+&lt;h1&gt;W3課程網誌心得&lt;/h1&gt;
+&lt;h2&gt;課程主旨&lt;/h2&gt;
+&lt;p&gt;2024 Spring 協同產品設計實習的第三週, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+&lt;h2&gt;學習成果&lt;/h2&gt;
+&lt;p&gt;一.建立個人課程倉儲:&lt;/p&gt;
+&lt;p&gt;登入 GitHub 帳戶後，進入https://github.com/mdecycu/cmsimde_site，可以用來建立我的個人課程倉庫。透過點擊右上角的 "Use this template" 按鈕，將這個範本運用到我的倉庫中，並將其命名為 "cd2024"。接著，我進入了倉庫的設定頁面，找到了 "Pages" 選項。在這裡，再將主分支設定為網站的根目錄，這樣一來，我的個人課程網站就能夠正常運行了。
+完成這些步驟後，我的個人課程倉庫已經準備就緒！我就可以開始上傳課程資料，並透過這個網站與其他人分享你的知識了。&lt;/p&gt;
+&lt;p&gt;二.將倉儲 import 至 Replit&lt;/p&gt;
+&lt;p&gt;進入我的GitHub帳戶後，前往[https://github.com/mdecycu/cmsimde_site]。這是一個現成的範本，可以用來建立你的個人課程倉庫。
+透過點擊右上角的 "Use this template" 按鈕，我使用了這個範本來建立新的倉庫。你將這個倉庫命名為 "cd2024"。接下來，你進入了倉庫的設定頁面，找到了 "Pages" 選項。在那裡，你將主分支 (main branch) 設置為網站的根目錄，這樣一來，你的個人課程網站就會自動顯示了。完成這些步驟後，我的個人課程倉庫設定完成！我就可以立即開始上傳課程內容，讓其他人能夠訪問和學習。&lt;/p&gt;
+&lt;p&gt;三.建立網誌&lt;/p&gt;
+&lt;p&gt;我們使用的網誌系統是 Pelican，而 markdown 目錄則是我們撰寫網誌範本的原始檔。新增內容後，透過指令 pelican markdown -o blog -s local_publishconf.py，將其轉換為網誌，並將轉換後的內容放置在 blog 目錄下。在設定網誌時，需要使用到幾個與 blog 相關的設定檔。首先是 pelicanconf.py，它可以讓我們更改網誌的名稱。然後是 publishconf.py，它用於增加靜態連結。在設定這些檔案時，需要根據自己的 GitHub 帳號進行相應的配置。&lt;/p&gt;</content><category term="41136103-w3"></category><category term="網誌編寫 41136103"></category></entry></feed>

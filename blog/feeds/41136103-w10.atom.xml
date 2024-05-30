@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 41136103-w10</title><link href="./" rel="alternate"></link><link href="./feeds/41136103-w10.atom.xml" rel="self"></link><id>./</id><updated>2024-05-30T06:24:47+08:00</updated><entry><title>2024 Spring 課程 41136103</title><link href="./w10%2041136103.html" rel="alternate"></link><published>2024-04-25T15:00:00+08:00</published><updated>2024-05-30T06:24:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-25:./w10 41136103.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w10網誌&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w10網誌&lt;/p&gt;
+
+
+&lt;h1&gt;W10課程網誌心得&lt;/h1&gt;
+&lt;h2&gt;課程主旨&lt;/h2&gt;
+&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 建立各班學員的倉儲、網站與分組連結、鋼球平衡台 PID 控制與模擬、鋼球平衡台零組件繪圖。&lt;/p&gt;
+&lt;h2&gt;學習成果&lt;/h2&gt;
+&lt;p&gt;任務一&lt;/p&gt;
+&lt;p&gt;根據老師所給的 2b.txt 裡的['學號', 'Github 帳號', '組別'], 以下是利用 Python 寫的初步資料數列.&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+  from browser import window, ajax
+
+  def fetch_csv_data():
+    # CSV 檔案網址
+    url = "https://mdecd2024.github.io/2bstud-2bsite/downloads/2b.txt"
+
+    def on_complete(req):
+      if req.status == 200 or req.status == 0:
+        # 讀取 CSV 檔案內容
+        content = req.text
+
+        # 依照換行符號拆分資料
+        lines = content.split('\n')
+
+        # 建立空列表儲存資料
+        data = []
+
+        # 遍歷每一行資料
+        for line in lines:
+          # 忽略空白行
+          if line.strip() == "":
+            continue
+
+          # 依照逗號拆分資料
+          items = line.split(',')
+
+          # 將拆分後的資料加入列表
+          data.append(items)
+
+        # 印出結果
+        print(data)
+      else:
+        print("Error:", req.text)
+
+    # 發送 AJAX 請求
+    req = ajax.ajax()
+    req.bind('complete', on_complete)
+    req.open('GET', url, True)
+    req.set_header('content-type', 'application/x-www-form-urlencoded')
+    req.send()
+
+  # 呼叫函式讀取 CSV 資料
+  fetch_csv_data()
+&lt;/pre&gt;
+
+&lt;p&gt;只要透過 for 重複迴圈, 就可以從上列資料中每位學員的基本資料 (學號、Github 帳號與組別) 中直接在網頁建立所需的 html.&lt;/p&gt;
+&lt;p&gt;並列出-學員倉儲連結/學員網站連結/2b 分組倉儲連結 template: https://github.com/mdecd2024/2b-midag組別&lt;/p&gt;
+&lt;p&gt;任務二(文章1-6)&lt;/p&gt;
+&lt;p&gt;1.構建球體平衡平台及理論研究：&lt;/p&gt;
+&lt;p&gt;這篇章節著重於建造球體平衡平台的物理結構以及相關的控制算法的理論研究。通過實際構建平台並引入自動控制理論，比較了牛頓力學和計算機模擬結果，並設計了滿足系統要求的控制器，從而探討了理論與實際結果之間的差異和相應的挑戰。
+FPGA平行實現的即時球平衡控制系統：&lt;/p&gt;
+&lt;p&gt;這篇章節介紹了一個在FPGA晶片上實現的即時控制系統，用於平衡平台上的球體。通過開發兩個並行的PID控制器，實現對球體位置和角度的獨立控制，並且藉由並行處理提高了控制精度。&lt;/p&gt;
+&lt;p&gt;2.基於狀態空間方法的雙軸平臺球位控制模擬與實驗研究：&lt;/p&gt;
+&lt;p&gt;遮篇章接說明這份研究深入設計和比較了三種控制結構，用於穩定球體在平臺上的位置以及追蹤其軌跡。通過比較PD控制器、狀態空間反饋和狀態空間觀測器，該研究旨在探討不同方法的性能和應用。&lt;/p&gt;
+&lt;p&gt;3.控制理論課程的球平衡系統設計與實現：&lt;/p&gt;
+&lt;p&gt;這篇章節描述了一個用於控制理論課程的球平衡系統，利用微控制器和相應的控制演算法實現。通過整合伺服電機、距離感測器和微控制器板，以及設計適用於MATLAB的介面程式，學生可以理解和實現控制理論知識&lt;/p&gt;
+&lt;p&gt;4.板上球平衡控制系統：&lt;/p&gt;
+&lt;p&gt;這篇章節聚焦於解決平臺上球體平衡問題的系統設計。通過電阻式觸摸屏獲取球體位置數據，並使用步進電機和位置傳感器控制平臺傾斜角度，該系統實現了PID控制器，以保持球體平衡。&lt;/p&gt;
+&lt;p&gt;5.使用QUARC的2D球平衡器控制：&lt;/p&gt;
+&lt;p&gt;這篇論文介紹了使用QUARC軟體實現的2D球平衡器控制。通過設計PD和PID控制器，並探討控制技術，該研究實現了對球體位置的準確控制，並採用攝像頭進行位置讀取和轉換。&lt;/p&gt;
+&lt;p&gt;6.2D Ball Balancer Control using QUARC (使用 QUARC 的 2D 球平衡器控制)&lt;/p&gt;
+&lt;p&gt;這篇章節說明了使用 QUARC 軟體設計和實現球體在二維平台上的位置控制。 設計 PD 和 PID 控制器，並探討設定點權重和積分器抗飽和等控制技術。 使用攝像頭讀取球體位置，並進行校準和轉換。&lt;/p&gt;</content><category term="41136103-w10"></category><category term="網誌編寫 41136103"></category></entry></feed>

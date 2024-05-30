@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - 41136103-w11</title><link href="./" rel="alternate"></link><link href="./feeds/41136103-w11.atom.xml" rel="self"></link><id>./</id><updated>2024-05-30T06:24:47+08:00</updated><entry><title>2024 Spring 課程 41136103</title><link href="./w11%2041136103.html" rel="alternate"></link><published>2024-05-02T15:00:00+08:00</published><updated>2024-05-30T06:24:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-05-02:./w11 41136103.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w11網誌&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程 w11網誌&lt;/p&gt;
+
+
+&lt;h1&gt;W11課程網誌心得&lt;/h1&gt;
+&lt;h2&gt;課程主旨&lt;/h2&gt;
+&lt;p&gt;協同產品設計實習第十一週實習操作, 各學員利用 NX 1872 繪製鋼球平衡台所需的零組件.&lt;/p&gt;
+&lt;h2&gt;學習成果&lt;/h2&gt;
+&lt;h3&gt;利用上週加入的全班倉儲,於裡面編寫前10週之統整心得,以每一組為例&lt;/h3&gt;
+&lt;p&gt;因每個人皆有權限可以於上面改版, 這樣就會出現一個問題, 就是在 push 時只可以一個人推, 如果全部人一起推會導致亂碼產生, 我們所有打上去的都會亂跑, 有一個方法可以解決這個問題，然後去預防此問題產生, 就是在個人或各組完成階段性改版之前, 先透過獨立分支進行資料改版提交和推送, 等個人階段性版本確定後, 再與分組分支合併, 最後各組的階段性版本再與建立網頁的主分支進行合併。&lt;/p&gt;</content><category term="41136103-w11"></category><category term="網誌編寫 41136103"></category></entry></feed>

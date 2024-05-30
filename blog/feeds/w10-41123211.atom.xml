@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w10 41123211</title><link href="./" rel="alternate"></link><link href="./feeds/w10-41123211.atom.xml" rel="self"></link><id>./</id><updated>2024-05-30T06:24:47+08:00</updated><entry><title>20240425 41123211</title><link href="./2024-Spring-w10-blog-41123211.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-05-30T06:24:47+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-25:./2024-Spring-w10-blog-41123211.html</id><summary type="html">&lt;p&gt;本周進行鋼球平衡台 PID 控制與模擬資料整理，以及實作。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;本周進行鋼球平衡台 PID 控制與模擬資料整理，以及實作。&lt;/p&gt;
+
+
+&lt;h1&gt;鋼球平衡台 PID 控制與模擬資料整理與實作&lt;/h1&gt;
+&lt;p&gt;這周我以ChatPDF協助我進行鋼球平衡台的資料整理，現在AI當道的時代，我們不應該害怕AI，應該善用AI來協助我們簡化各種複雜的工作。&lt;/p&gt;
+&lt;p&gt;在整理資料的過程中，我發現原來進行一個鋼球平衡的專案，需要用到這麼多的專業知識，不論是微積分、Arduino、PID、Matlab等等，但在沒有這麼多知識背景的情況下，能不能實作出成品來，就是一大考驗了，還好在這個資訊爆發的時代，有非常多的資料和程式可以輔助我們進行模擬，甚至有AI幫助我們解決各種難題，方便許多。&lt;/p&gt;
+&lt;p&gt;而在模擬實作的部分，大致和上學期的內容差不多，應該是能順利完成。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://leekuchu006.github.io/cd2024/content/Ball%20balance%20research.html"&gt;鋼球平衡台控制與模擬的資料整理&lt;/a&gt;&lt;/p&gt;</content><category term="w10 41123211"></category><category term="網誌編寫 41123211"></category></entry></feed>
